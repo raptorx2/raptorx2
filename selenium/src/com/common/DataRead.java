@@ -22,7 +22,6 @@ class DataRead {
 			while((line = br.readLine())!= null){
 				//System.out.println(line);
 				list.add(line);
-				
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
